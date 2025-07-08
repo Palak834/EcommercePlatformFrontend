@@ -15,7 +15,7 @@ E-ShoppingZone is a full-featured e-commerce web application built with React an
 ## Technologies Used
 - **Frontend**: React, React Router, Tailwind CSS, Axios
 - **State Management**: React Context API
-- **Backend**: Spring Boot (assumed integration)
+- **Backend**: Spring Boot
 - **Authentication**: JWT
 - **Build Tools**: React Scripts, Tailwind CSS, PostCSS, Autoprefixer
 
@@ -26,22 +26,16 @@ E-ShoppingZone is a full-featured e-commerce web application built with React an
 
 ## Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/e-shoppingzone.git
-cd e-shoppingzone
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. Set Up Environment
+### 2. Set Up Environment
 - Ensure the backend server is running on `http://localhost:8080`.
 - Update `package.json` proxy if the backend URL differs.
 
-### 4. Run the Application
+### 3. Run the Application
 ```bash
 npm start
 ```
@@ -53,15 +47,3 @@ Open `http://localhost:3000` in your browser.
 - Admins can log in and manage products/orders via the admin dashboard.
 - View order history and profile details.
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m "Add new feature"`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-## License
-This project is currently unlicensed. Contact the maintainers for details.
-
-## Contact
-For issues or questions, open an issue on this repository or contact the project maintainers.
